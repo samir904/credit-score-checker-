@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_BACKEND_URL || 'http://localhost:5014/api/v1',
+   // baseURL: import.meta.env.VITE_BACKEND_URL || 'http://localhost:5014/api/v1',
+   baseURL:'https://credit-score-checker-todk.onrender.com/api/v1',
     withCredentials: true,
     headers: {
         'Content-Type': 'application/json'

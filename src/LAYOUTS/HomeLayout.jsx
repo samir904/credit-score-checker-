@@ -1,9 +1,9 @@
 // src/layouts/HomeLayout.jsx
 
 import { Outlet } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import MobileNavbar from '../components/MobileNavbar';
-import Footer from '../COMPONENTS/Footer';
+import Navbar from '../COMPONENTS/Navbar.jsx';
+import MobileNavbar from '../COMPONENTS/MobileNavbar.jsx';
+import Footer from '../COMPONENTS/Footer.jsx';
 
 function HomeLayout() {
     return (

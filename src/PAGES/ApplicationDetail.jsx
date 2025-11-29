@@ -34,7 +34,7 @@ import {
     TrendingUp,
     AlertTriangle
 } from 'lucide-react';
-import Toast from '../COMPONENTS/Toast';
+import Toast from '../COMPONENTS/Toast.jsx';
 
 function ApplicationDetail() {
     const { id } = useParams();
